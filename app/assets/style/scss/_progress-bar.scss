@@ -1,0 +1,33 @@
+// From http://www.inwebson.com/demo/css3-progress-bars/
+
+.bar {
+  margin: 5px 0 3px;
+  background: $gray;
+  overflow: hidden;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  > span {
+    display: block;
+    height: 25px;
+  }
+}
+
+.speed > span{
+  background-color: #EF6360;
+}
+.special-defense > span{
+  background-color: #F5B659;
+}
+.special-attack > span{
+  background-color: #A3667C;
+}
+.defense > span{
+  background-color: #7BB8A9;
+}
+.attack > span{
+  background-color: #2A7697;
+}
+.hp > span{
+  background-color: #A572BB;
+}
